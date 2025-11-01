@@ -20,4 +20,4 @@ def play():
     return render_template('play.html', game_args=args)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=10000)
